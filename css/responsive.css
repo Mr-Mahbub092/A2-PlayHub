@@ -28,7 +28,26 @@
     width:80%;
     text-align: center;
   }
+  .types-container{
+    margin: 8px;
+    padding:3rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:8px;
+  }
+  .type{
+    max.width:120px;
+  }
+  .type img{
+   width:1.5rem;
+  }
+  .type-txt{
+  font-size:8px;
+  padding-right:8px;
+  }
 }
+
+
 
 
 
@@ -51,5 +70,21 @@
   .banner-img{
     width: 80%;
   }
+ 
+  .types-container{
+    margin: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:8px;
+  }
+  .type{
+    max.width:120px;
+  }
+  .type img{
+   width:1.5rem;
+  }
+ 
+ 
+
 
 }
