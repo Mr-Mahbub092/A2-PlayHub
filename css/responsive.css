@@ -1,0 +1,55 @@
+/* For Mobile Devices 
+-----------------------*/
+@media screen and (max-width:425px) {
+  
+  .nav-container, .nav-items, .nav-menu{
+    flex-direction: column;
+  }
+  .nav-logo-container,.banner-img{
+    width:80%;
+    margin: auto;
+    justify-content: center;
+  }
+  .nav-items{
+    width:80%;
+    margin:2rem auto;
+    gap:36px;
+  }
+  .nav-menu{
+    gap:36px;
+  }
+  .nav-icons{
+    margin-top:2rem;
+  }
+  .banner-container{
+    flex-direction: column-reverse;
+  }
+  .banner-content{
+    width:80%;
+    text-align: center;
+  }
+}
+
+
+
+
+/* For Medium Devices
+--------------------- */
+
+@media screen and (min-width:425.1px) and (max-width:768px) {
+  .nav-container, .nav-items, .banner-container{
+    flex-direction: column;
+  }
+  .nav-logo-container{
+    width:100%;
+    justify-content: center;
+  }
+  .nav-items{
+    width:100%;
+    margin:2rem auto;
+  }
+  .banner-img{
+    width: 80%;
+  }
+
+}
