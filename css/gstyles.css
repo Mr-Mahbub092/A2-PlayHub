@@ -184,8 +184,27 @@ font-size: 1.7rem;
 font-weight: 700;
 }
 
+/* Online Game Section
+-------------------------- */
+.online-games{
+  max-width: 1280px;
+  margin:0 auto;
+  padding:3rem 1rem;
+  text-align: center;
+}
+.card-container{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.25rem;
+}
 
-
+.card-container .card{
+  margin-top:3rem;
+  text-align: left;
+}
+.card img{
+  width:100%;
+}
 
 /* Play Instantly section
 ---------------------- */

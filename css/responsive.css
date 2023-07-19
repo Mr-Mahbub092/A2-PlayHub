@@ -45,6 +45,16 @@
     margin-left:0;
   }
 
+/* Online Game Section
+-------------------------- */
+.online-games{
+  max-width: 90%;
+}
+.card-container{
+  grid-template-columns: 1fr;
+}
+
+
 
 /* Play Instantly Section 
 ---------------------------*/
@@ -156,6 +166,14 @@
   width:80%;
   text-align: center;
   margin-left:0;
+}
+/* Online Game Section
+-------------------------- */
+.online-games{
+  max-width: 80%;
+}
+.card-container{
+  grid-template-columns: 1fr 1fr;
 }
 
   /* Play Instantly Section 
