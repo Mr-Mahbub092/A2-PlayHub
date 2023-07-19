@@ -18,7 +18,14 @@ body{
   -webkit-background-clip: text;
 }
 .primary-title{
-  
+font-size: 3rem;
+font-weight: 700;
+}
+.primary-description{
+  color: #534C64;
+font-size: 1.2rem;
+font-weight: 400;
+margin-top: 1.5rem;
 }
 .primary-btn{
 background: #FF42A5;
@@ -140,6 +147,35 @@ font-weight: 800;
 .banner-img img{
   width:100%;
 }
+/* Main Section 
+======================== */
+/* Play Instantly section
+---------------------- */
+.play-instant-container{
+  display:flex;
+  max-width: 1280px;
+  align-items: center;
+  margin:0 auto;
+  padding:3rem 1rem;
+}
+.play-instant-content{
+  width:35%;
+  text-align: right;
+  margin-right: 5rem;
+}
+.play-instant-imgs{
+  width:65%;
+}
+.play-instant-imgs .main-img{
+  width:80%;
+  float:right;
+}
+.play-instant-imgs .tag-img{
+  width:40%;
+  margin-top: -35%;
+  margin-left: 3%;
+}
+
 
 /* Game Types Styles
 ----------------------- */

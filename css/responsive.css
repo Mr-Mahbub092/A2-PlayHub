@@ -28,6 +28,25 @@
     width:80%;
     text-align: center;
   }
+/* Play Instantly Section 
+---------------------------*/
+  .play-instant-container{
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .play-instant-content{
+    width:90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .play-instant-imgs{
+    width:90%;
+    margin: 3rem 0;
+  }
+
+/* Games Types Section
+----------------------- */
   .types-container{
     margin: 8px;
     padding:3rem 0;
@@ -46,7 +65,8 @@
   padding-right:8px;
   }
 
-
+/* Footer Section
+------------------- */
   .footer{
     padding:30px;
   }
@@ -104,6 +124,26 @@
     width: 80%;
   }
  
+  /* Play Instantly Section 
+---------------------------*/
+.play-instant-container{
+  flex-direction: column;
+  max-width: 100%;
+  justify-content: center;
+}
+.play-instant-content{
+  width:90%;
+  text-align: center;
+  margin: 0 auto;
+}
+.play-instant-imgs{
+  width:90%;
+  margin: 3rem 0;
+}
+
+
+  /* Games Types Section
+  ------------------------ */
   .types-container{
     margin: 8px;
     display: grid;
