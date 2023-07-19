@@ -73,6 +73,23 @@
     margin: 3rem 0;
   }
 
+/* Career Section
+------------------------ */
+.career{
+  flex-direction:column;
+}
+.career-content{
+ width:95%;
+padding: 2rem 0;
+}
+.career-img{
+  width:100%;
+}
+.career-img img{
+  width:100%;
+  height:100%;
+}
+
 /* Games Types Section
 ----------------------- */
   .types-container{
@@ -134,7 +151,7 @@
 
 
 /* For Medium Devices
---------------------- */
+======================= */
 
 @media screen and (min-width:425.1px) and (max-width:768px) {
   .nav-container, .nav-items, .banner-container{
@@ -209,7 +226,22 @@
   width:90%;
   margin: 3rem 0;
 }
-
+/* Career Section
+------------------------ */
+.career{
+  flex-direction:column;
+}
+.career-content{
+ width:95%;
+padding: 2rem 0;
+}
+.career-img{
+  width:100%;
+}
+.career-img img{
+  width:100%;
+  height:100%;
+}
 
   /* Games Types Section
   ------------------------ */
@@ -226,6 +258,9 @@
    width:1.5rem;
   }
 
+
+/* Footer Section
+--------------------- */
   .footer{
     padding:5rem;
   }

@@ -45,12 +45,13 @@ cursor: pointer;
 .header{
   max-width: 1280px;
   margin:0 auto;
-  padding:3rem 1rem;
 }
 .nav-container{
   display: flex;
   justify-content: space-between;
   align-content: center;
+  padding:1rem 1rem;
+  background-color: #f4f3f7;
 }
 
 .nav-logo-container{
@@ -109,6 +110,7 @@ cursor: pointer;
 
 
 .banner-container{
+  padding:3rem 1rem;
   display: flex;
   justify-content: space-between;
   gap:3rem;
@@ -282,6 +284,63 @@ margin-top:1rem;
   margin-left: 3%;
 }
 
+/* Career Section
+------------------------ */
+.career{
+  width:auto;
+  background-color: #FF42A5;
+  display:flex;
+  align-items: center;
+  margin:2rem auto;
+  padding-left:1rem;
+}
+.career-content{
+ width:50%;
+ height:100%;
+}
+.career-img{
+  width:50%;
+height:100%;
+}
+.career-img img{
+  width:100%;
+  height:100%;
+}
+.career-title{
+  color: #FFF;
+font-size: 2rem;
+font-weight: 700;
+margin-bottom:1rem;
+}
+.career-description{
+  color: #FFF;
+font-size: 12px;
+font-weight: 400;
+margin-bottom: 1rem;
+}
+.specialist-container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.specialists, .location{
+  color: #FFF;
+font-size: 14px;
+font-weight: 600;
+line-height: 1.5rem;
+}
+.location{
+  text-align: right;
+}
+
+.career-content button{
+  color:#FF42A5;
+  padding: 12px 2rem;
+  border: none;
+  margin-top:1rem;
+  border-radius: 2rem;
+background: #FFF;
+}
 
 /* Game Types Styles
 ----------------------- */
