@@ -28,6 +28,24 @@
     width:80%;
     text-align: center;
   }
+/* Gamers Quote Section
+------------------------ */
+  .gamers{
+    max-width:95%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .gamers-img{
+    width:100%;
+  }
+  
+  .gamers-content{
+    width:80%;
+    text-align: center;
+    margin-left:0;
+  }
+
+
 /* Play Instantly Section 
 ---------------------------*/
   .play-instant-container{
@@ -123,6 +141,39 @@
   .banner-img{
     width: 80%;
   }
+  /* Gamers Quote Section
+------------------------ */
+.gamers{
+  max-width:95%;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.gamers-img{
+  width:100%;
+}
+
+.gamers-content{
+  width:80%;
+  text-align: center;
+  margin-left:0;
+}
+
+  /* Play Instantly Section 
+---------------------------*/
+.play-instant-container{
+  flex-direction: column;
+  max-width: 100%;
+  justify-content: center;
+}
+.play-instant-content{
+  width:90%;
+  text-align: center;
+  margin: 0 auto;
+}
+.play-instant-imgs{
+  width:90%;
+  margin: 3rem 0;
+}
  
   /* Play Instantly Section 
 ---------------------------*/

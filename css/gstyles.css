@@ -149,6 +149,44 @@ font-weight: 800;
 }
 /* Main Section 
 ======================== */
+/* Gamers Section
+---------------------------- */
+.gamers{
+  max-width: 1280px;
+  margin:0 auto;
+  padding:3rem 1rem;
+  display:flex;
+  align-items: center;
+}
+.gamers-img{
+  width:50%;
+}
+.gamers-img img{
+  width:100%;
+}
+.gamers-content{
+  width:40%;
+  text-align: right;
+  margin-left: 10%;
+}
+.gamers-btn button{
+  margin: 1.5rem 0;
+}
+.gamers-txt{
+  color: #534C64;
+font-size: 1.5rem;
+font-weight: 500;
+margin-bottom: 1.5rem;
+}
+.gamers-quote{
+  color: #534C64;
+font-size: 1.7rem;
+font-weight: 700;
+}
+
+
+
+
 /* Play Instantly section
 ---------------------- */
 .play-instant-container{
