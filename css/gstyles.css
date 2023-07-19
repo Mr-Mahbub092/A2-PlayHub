@@ -206,6 +206,44 @@ font-weight: 700;
   width:100%;
 }
 
+.card-img-container{
+  position:relative;
+}
+.overlay{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:50%;
+  left:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay i{
+ font-size:3rem;
+ color:rgb(241, 236, 236);
+}
+.overlay p{
+font-size: 1.25rem;
+font-weight: 600;
+color: #fff;
+margin-top:1rem;
+}
+
+.card-img-container:hover .card-img {
+  opacity:0.5;
+}
+.card-img-container:hover .overlay{
+  opacity:1;
+}
+
+
+
 /* Play Instantly section
 ---------------------- */
 .play-instant-container{
