@@ -117,7 +117,11 @@ cursor: pointer;
 }
 .banner-content{
   width:50%;
-  /* background: url("../images/gamer-12.png"); */
+  padding:3rem;
+  background: url("../images/gamer-12.png"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
 }
 .banner-title{
   color: #0B0223;
@@ -237,9 +241,12 @@ margin-top:1rem;
 
 .card-img-container:hover .card-img {
   opacity:0.5;
+
 }
 .card-img-container:hover .overlay{
   opacity:1;
+  border: 2px solid #FF42A5;
+  border-radius: 10px;
 }
 
 
@@ -291,10 +298,10 @@ margin-top:1rem;
   border: none;
   position:relative;
   box-sizing: border-box;
+  border-radius: 20px;
 }
 .type:hover {
   border:2px solid #FF42A5;
-  border-radius: 20px;
 }
 .type:hover .type-txt{
   color:#FF42A5;
