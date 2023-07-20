@@ -113,7 +113,7 @@ cursor: pointer;
   padding:3rem 1rem;
   display: flex;
   justify-content: space-between;
-  gap:3rem;
+  gap:2rem;
   align-items: center;
   margin-top: 50px;
 }
@@ -362,6 +362,7 @@ background: #FFF;
   position:relative;
   box-sizing: border-box;
   border-radius: 20px;
+  border:2px solid transparent;
 }
 .type:hover {
   border:2px solid #FF42A5;

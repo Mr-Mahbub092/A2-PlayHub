@@ -25,9 +25,22 @@
     flex-direction: column-reverse;
   }
   .banner-content{
-    width:80%;
+    width:100%;
     text-align: center;
   }
+  .banner-title{
+  font-size: 2rem;
+  }
+  .banner-heading{
+    font-size: 3rem;
+    }
+    .banner-text{
+      font-size: 1rem;
+    }
+  .primary-btn{
+    padding:1rem 1.5rem;
+    font-size: 12px;
+    }
 /* Gamers Quote Section
 ------------------------ */
   .gamers{
@@ -165,9 +178,36 @@ padding: 2rem 0;
     width:100%;
     margin:2rem auto;
   }
-  .banner-img{
-    width: 80%;
+
+  .banner-container{
+    flex-direction: column-reverse;
   }
+  .banner-content{
+    width:100%;
+    text-align: center;
+  }
+  .banner-list-container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+  }
+  .banner-title{
+  font-size: 2rem;
+  }
+  .banner-heading{
+    font-size: 3rem;
+    }
+    .banner-text{
+      font-size: 1rem;
+    }
+  .primary-btn{
+    padding:1rem 1.5rem;
+    font-size: 12px;
+    }
+    .banner-img{
+      width: 80%;
+    }
+  
   /* Gamers Quote Section
 ------------------------ */
 .gamers{
@@ -268,12 +308,11 @@ padding: 2rem 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-  .terms-privacy{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding:10px;
-  }
+ 
+    .terms-privacy{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+    }
   .terms-privacy a{
   padding: 10px;
   }
